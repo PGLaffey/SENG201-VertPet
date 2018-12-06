@@ -1,0 +1,14 @@
+$G$ Food:<br>Both food and drink are under the classifaction of food. Food has a one time use that eaten by a pet to decrease its hunger and thirst. Food can also effect other stats. #
+$A$ Alcohol - A bottle of alcohol. Increases happiness when drunk. #
+$B$ Berries - A collection of berries including raspberries, blue berries and black berries. #
+$C$ Carrot - A bunch of nice orange carrot. #
+$D$ Chocolate - A large block of sweet milk chocolate which increases happiness but is poisonous to some pets. #
+$E$ CookedMeat - A nice large cooked steak of meat. #
+$J$ Juice - The juice of many fresh fruit mixed together. #
+$K$ Kibble - A universal pet biscuit primarily designed for dogs and cats. #
+$M$ Medicine - Antibiotics that can help a sick pet get better. #
+$N$ Milk - A bottle of full cream milk fresh from the farm. #
+$P$ Penuts - A bag of salted penuts. #
+$R$ RawMeat - A fresh uncooked steak of meat, still full of blood. #
+$S$ Seeds - A collection of different ediable seeds. #
+$W$ Water - A bottle of fresh mountain spring water. #

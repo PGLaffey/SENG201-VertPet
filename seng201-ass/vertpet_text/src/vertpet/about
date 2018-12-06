@@ -1,0 +1,106 @@
+VertPet is a virtual pet simulation game. 
+In this game up to five players can have up to three pets to take care of for a set number of days or for an unlimited game. 
+Each day each player will get three turns, during each turn a player can perform up to two actions. (See Actions) A turn simulates a time of the day.
+At the end of the game a player will be scored on how well they have played. (See Score)
+
+------------------------------------------------------------------------------------
+
+Pets:
+There are seven different species of pets a player can choose from. Every pet has five base stats and an overall health. If a pet is not taken care of it can get sick. When a pet is sick it will require more food and sleep than normal. If a pets health drops to zero it will die.
+
+Species:
+Each species has its own advantages and disadvantages. They all have their own likes and dislikes in food and toys. Some food is even poisonous to some species.
+Available Species:
+Bird
+Cat
+Dog
+Elephant
+Human
+Mouse
+Rabbit
+
+Stats:
+When a pets stats drop too low the pets health will reduce, however if they are high the pets health will increase. At the end of each time of the day, a pets stats will adjusted simulating time passing.
+Pets Stats:
+Hunger - How hungry a pet is.
+Thirst - How thirsty a pet is.
+Happiness - How happy a pet is.
+Bladder - How much a pet needs to go to the toilet.
+Tiredness - How tired a pet is.
+Health - How healthy a pet is. If this drops to zero or bellow the pet will die.
+
+------------------------------------------------------------------------------------ 
+
+Days:
+Each day has three time periods. 9AM, 3PM and 9PM. During each time period, each player get two actions.
+The number of days in a game is chosen at the start. In a regular game, the game will end when the number of remaining days is zero. In an endless game, the game will only end once a player does the action End.
+
+------------------------------------------------------------------------------------
+ 
+Actions:
+A player can perform up to two actions per turn. Some of these actions involve pets other just the player.
+The available actions are:
+Feed - Feed a pet with one item of food or drink that is in the players inventory. The food will be consumed.
+Play - Play with a pet using a toy from the players inventory. The toy will lose durability and if runs out of durability will be consumed.
+Sleep - Put a pet to sleep. If the pet is not tired, it will not sleep.
+Toilet - Take a pet to visit the bathroom. If the pet does not need to go toilet, it will not.
+Work - Go to work and earn between $20 and $60.
+Shop - Visit the shop where you can buy food, drinks or toys. (See Shop)
+Update - Gives the player an update of all of their pets current status.
+Inv - Gives the player an update of all food, drinks and toys in their inventory as well as how much money they have.
+Help - Tells the player a list of avaliable actions and what they do.
+Skip - Skips the current action. If the player has another action this turn, they can still take it. 
+End - Ends the game early by removing all remaining days and ends the game at the end of the current day. All players still get any remaining turns for the current day.
+
+------------------------------------------------------------------------------------
+
+Shop:
+The shop is a in build market place where you can spend in game money to obtain food, drinks or toys that can be used on your pets. The shop will automatically restock itself when it is getting low on stock.
+The actions you can perform in the shop are:
+Money - Gives the player an update on how much money they have.
+Buy - Updates the player on the stock of the shop and allows the player to purchase items if they have enough money. (See Items)
+Stock - Updates the player on the stock of the shop including the price of each item.
+Inv - Gives the player an update of their current inventory.
+Leave - Leave the shop and return to the main actions menu. Uses one player action.
+Help - Tells the player a list of avaliable actions and what they do.
+
+------------------------------------------------------------------------------------
+
+Items:
+Owned items are stored in the players inventory. An item is either a food, drink or toy to be used by a pet.
+
+Food:
+Both food and drink are under the classifaction of food. Food has a one time use that eaten by a pet to decrease its hunger and thirst. Food can also effect other stats.
+Available Food:
+Alcohol - A bottle of alcohol. Increases happiness when drunk.
+Berries - A collection of berries including raspberries, blue berries and black berries.
+Carrot - A bunch of nice orange carrot.
+Chocolate - A large block of sweet milk chocolate which increases happiness but is poisonous to some pets.
+CookedMeat - A nice large cooked steak of meat.
+Juice - The juice of many fresh fruit mixed together.
+Kibble - A universal pet biscuit primarily designed for dogs and cats.
+Medicine - Antibiotics that can help a sick pet get better.
+Milk - A bottle of full cream milk fresh from the farm.
+Penuts - A bag of salted penuts.
+RawMeat - A fresh uncooked steak of meat, still full of blood.
+Seeds - A collection of different ediable seeds.
+Water - A bottle of fresh mountain spring water.
+
+Toys:
+Toys are used to increase happiness of a pet. They have a set amount of durability, once this durability is reduced to zero the toy is consumed.
+Available Toys:
+BouncyBall - A little rubber bouncy ball.
+Football - A size 5 football, pumped and ready.
+Laser - Battery powered laser pointer.
+Mirror - A regular mirror, is it really a toy?
+Radio - A radio capable of picking up both FM and AM frequencies.
+RunningWheel - Like a hamster wheel only comes in all different sizes.
+TV - Television with inbuilt Freeview.
+
+------------------------------------------------------------------------------------
+
+Score:
+At the end of the game a player will be rewarded points for how well they have played. They can earn points a number of different ways.
+The ways a player can earn points are:
+Pet Score - The overall pets health and happiness will determine the score for a pet with a max value of 10,000. If a pet dies it will count as -5,000 points towards the players total score. A player will earn a score for every pet they own.
+Money Score - A player will earn 10 points for every $1 they have at the end of the game. Any food or toys a player has will be sold for 75% of their original value.
